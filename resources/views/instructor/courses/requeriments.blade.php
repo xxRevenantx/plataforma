@@ -23,7 +23,7 @@
 
     <x-instructor.course-sidebar :course="$course">
 
-        
+        hola mundo
 
     </x-instructor.course-sidebar>
 
