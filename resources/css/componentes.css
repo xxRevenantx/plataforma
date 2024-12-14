@@ -1,0 +1,31 @@
+/* <button type="button" class="
+text-white 
+bg-gradient-to-br 
+from-purple-600 
+to-blue-500 
+hover:bg-gradient-to-bl focus:ring-4 focus:outline-none 
+focus:ring-blue-300 dark:focus:ring-blue-800 font-medium 
+rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+>Purple to Blue</button> */
+
+
+.btn{
+    @apply text-white  bg-gradient-to-br hover:bg-gradient-to-bl focus:ring-4 focus:outline-none rounded-sm text-sm px-5 py-2.5 text-center me-2 mb-2
+}
+
+.btn-purple{
+    @apply from-purple-600 to-blue-500 font-medium focus:ring-blue-300 dark:focus:ring-blue-800 
+}
+
+.btn-cyan{
+    @apply from-cyan-600 to-cyan-500 font-medium focus:ring-cyan-300 dark:focus:ring-cyan-800 
+}
+
+.btn-green{
+    @apply from-green-600 to-green-500 font-medium focus:ring-green-300 dark:focus:ring-green-800 
+}
+
+
+.card{
+    @apply bg-white shadow-lg rounded-lg p-6
+}
